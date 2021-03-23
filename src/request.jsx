@@ -2,7 +2,7 @@ import axios from "axios";
 
 function getBanners() {
   return axios
-    .get(`https://localhost:5000/banners`,
+    .get(`http://localhost:5000/banners`,
     { 
         headers: {
             'Accept': 'application/json'
@@ -13,7 +13,7 @@ function getBanners() {
 
 function getCategories() {
   return axios
-    .get(`https://localhost:5000/categories`,
+    .get(`http://localhost:5000/categories`,
     { 
         headers: {
             'Accept': 'application/json'
@@ -24,7 +24,7 @@ function getCategories() {
 
 function getProducts() {
     return axios
-      .get(`https://localhost:5000/products`,
+      .get(`http://localhost:5000/products`,
       { 
           headers: {
               'Accept': 'application/json'

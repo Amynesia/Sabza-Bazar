@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/aria-proptypes */
 import React from "react";
 import Logo from "../images/logo.png";
 
@@ -13,8 +14,8 @@ function NavBar(props) {
           </a>
           <div
             className="navbar-toggler align-contents-center py-2 px-2 border-0 mr-3"
-            dataToggle="collapse"
-            dataTarget="#navbarSupportedContent"
+            datatoggle="collapse"
+            datatarget="#navbarSupportedContent"
             style={{ backgroundColor: "#D0D0D0" }}
           >
             <a className="nav-item align-items-center pt-3" href="/cart">
@@ -37,7 +38,7 @@ function NavBar(props) {
           >
             <ul className="navbar-nav me-auto mb-2 mx-5 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link" ariaCurrent="page" href="/">
+                <a className="nav-link" aria-current="page" href="/">
                   <h5 className="font-weight-bold" style={{fontSize:"0.8rem"}}>Home</h5>
                 </a>
               </li>
@@ -55,16 +56,16 @@ function NavBar(props) {
                       <li className="nav-item mr-auto">
                         <a
                           className="nav-link font-weight-bold"
-                          ariaCurrent="Sign up"
+                          aria-current="Sign up"
                           href="/signup"
                         >
-                          <small className="font-weight-bold" style={{fontSize:"0.5rem"}}>Sign up</small>
+                          <small className="font-weight-bold" style={{fontSize:"0.5rem"}}>Sign in</small>
                         </a>
                       </li>
                       <li className="nav-item">
                         <a
                           className="nav-link font-weight-bold"
-                          ariaCurrent="Register"
+                          aria-current="Register"
                           href="/register"
                         >
                           <small className="font-weight-bold" style={{fontSize:"0.5rem"}}>Register</small>
