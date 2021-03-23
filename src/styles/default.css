@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+*{
+    font-size: calc(25% + 1vw + 1vh);
+}
